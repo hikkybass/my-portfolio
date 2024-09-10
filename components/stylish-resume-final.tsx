@@ -1,49 +1,51 @@
-"use client";
+'use client';
 
-import { CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 import {
   GraduationCapIcon,
   BriefcaseIcon,
   CodeIcon,
   SmileIcon,
-} from "lucide-react";
-import Image from "next/image";
+} from 'lucide-react';
+import Image from 'next/image';
 
 export function StylishResumeFinal() {
   const skills = [
-    "Go",
-    "PHP",
-    "Vue.js",
-    "Nuxt.js",
-    "React.js",
-    "要件定義",
-    "設計",
-    "開発",
-    "運用保守",
-    "PM",
+    'Go',
+    'PHP',
+    'Vue.js',
+    'Nuxt.js',
+    'React.js',
+    '要件定義',
+    '設計',
+    '開発',
+    '運用保守',
+    'PM',
   ];
 
   // 画像URLを追加
-  const profileImageUrl = "/my-image.png";
+  const profileImageUrl = '/my-image.png';
 
   return (
     <div className="min-h-screen bg-[#e8f3e8] py-12 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-        <div className="relative h-40 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500">
+        <div className="relative h-40 sm:h-48 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500">
           <div className="absolute inset-0 bg-blue-600 opacity-30 transform -skew-y-6"></div>
-          <div className="absolute top-1/2 right-4 w-32 h-32 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-lg transform -translate-y-1/2">
+          <div className="absolute top-1 right-1 sm:top-2 sm:right-2 w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-lg">
             <Image
               src={profileImageUrl}
               alt="プロフィール画像"
-              width={128}
-              height={128}
+              width={112}
+              height={112}
               className="object-cover"
             />
           </div>
-          <div className="absolute bottom-4 left-8 text-white z-10">
-            <h1 className="text-3xl font-bold">引山 裕貴（ひきやま ゆうき）</h1>
-            <p className="text-lg">エンジニア</p>
+          <div className="absolute bottom-1 left-2 sm:bottom-2 sm:left-4 text-white z-10">
+            <h1 className="text-lg sm:text-2xl font-bold leading-tight">
+              引山 裕貴（ひきやま ゆうき）
+            </h1>
+            <p className="text-sm sm:text-base">エンジニア</p>
           </div>
         </div>
         <CardContent className="p-8">
@@ -78,8 +80,8 @@ export function StylishResumeFinal() {
               学歴
             </h3>
             <div>
-              <p className="font-medium ">北海道大学 大学院情報科学研究院</p>
-              <p className="text-sm ">2014年卒業</p>
+              <p className="font-medium">北海道大学 大学院情報科学研究院</p>
+              <p className="text-sm">2014年卒業</p>
             </div>
           </section>
 
@@ -90,11 +92,11 @@ export function StylishResumeFinal() {
             </h3>
             <div className="space-y-4">
               <div>
-                <p className="font-bold ">
+                <p className="font-bold">
                   J-CAT株式会社 - PM、EM、Webエンジニア
                 </p>
-                <p className="text-sm ">2022年9月 - 2024年7月</p>
-                <ul className="list-disc list-inside text-sm  mt-2">
+                <p className="text-sm">2022年9月 - 2024年7月</p>
+                <ul className="list-disc text-xs md:text-sm mt-2">
                   <li>
                     伝統文化、飲食等の体験を可能とする、感動体験ECサイトの開発を担当
                   </li>
@@ -112,8 +114,8 @@ export function StylishResumeFinal() {
               </div>
               <div>
                 <p className="font-bold">株式会社Gracia - Webエンジニア</p>
-                <p className="text-sm ">2021年2月 - 2022年9月</p>
-                <ul className="list-disc list-inside text-sm  mt-2">
+                <p className="text-sm">2021年2月 - 2022年9月</p>
+                <ul className="list-disc text-xs md:text-sm mt-2">
                   <li>
                     ギフトECサイトの開発、自社向けの倉庫管理システム開発を担当
                   </li>
@@ -128,11 +130,11 @@ export function StylishResumeFinal() {
                 </ul>
               </div>
               <div>
-                <p className="font-bold ">
+                <p className="font-bold">
                   株式会社NTTデータ - PM、ITディレクター
                 </p>
-                <p className="text-sm ">2014年4月 - 2021年1月</p>
-                <ul className="list-disc list-inside text-sm  mt-2">
+                <p className="text-sm">2014年4月 - 2021年1月</p>
+                <ul className="list-disc text-xs md:text-sm mt-2">
                   <li>
                     有料放送事業者向けの顧客管理、請求管理等を行う大規模基幹システム開発を担当
                   </li>
@@ -154,7 +156,7 @@ export function StylishResumeFinal() {
               <SmileIcon className="mr-2 h-6 w-6 text-blue-500" />
               自己PR
             </h3>
-            <p className=" mb-4">
+            <ul className="list-disc mb-4 text-xs md:text-sm">
               <li>
                 細やかな対応が得意です。細やかな仕様の詰め、タスク進行の中でこぼれ球になりそうなものを拾い続けます
               </li>
@@ -164,7 +166,7 @@ export function StylishResumeFinal() {
               <li>
                 自身が大切にしている価値観は、『周囲への感謝』、『歩み寄ること』、『やり遂げること』です
               </li>
-            </p>
+            </ul>
           </section>
         </CardContent>
       </div>
