@@ -79,7 +79,7 @@ export function StylishResumeFinal() {
           </header>
 
           <section className="mb-8 bg-[#fafafa] rounded-lg p-6 shadow-md">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+            <h3 className="text-xl font-semibold text-blue-800 mb-4 flex items-center">
               <CodeIcon className="mr-2 h-6 w-6 text-blue-500" />
               スキル
             </h3>
