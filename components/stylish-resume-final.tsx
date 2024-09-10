@@ -101,7 +101,7 @@ export function StylishResumeFinal() {
                   J-CAT株式会社 - PM、EM、Webエンジニア
                 </p>
                 <p className="text-sm text-gray-600">2022年9月 - 2024年7月</p>
-                <ul className="list-disc text-xs md:text-sm mt-2 text-gray-700 font-medium">
+                <ul className="list-disc text-xs md:text-sm mt-2 text-gray-700 font-medium pl-5">
                   <li>
                     伝統文化、飲食等の体験を可能とする、感動体験ECサイトの開発を担当
                   </li>
@@ -122,7 +122,7 @@ export function StylishResumeFinal() {
                   株式会社Gracia - Webエンジニア
                 </p>
                 <p className="text-sm text-gray-600">2021年2月 - 2022年9月</p>
-                <ul className="list-disc text-xs text-gray-700 md:text-sm mt-2">
+                <ul className="list-disc text-xs text-gray-700 md:text-sm mt-2 pl-5">
                   <li>
                     ギフトECサイトの開発、自社向けの倉庫管理システム開発を担当
                   </li>
@@ -141,7 +141,7 @@ export function StylishResumeFinal() {
                   株式会社NTTデータ - PM、ITディレクター
                 </p>
                 <p className="text-sm text-gray-600">2014年4月 - 2021年1月</p>
-                <ul className="list-disc text-xs text-gray-700 md:text-sm mt-2">
+                <ul className="list-disc text-xs text-gray-700 md:text-sm mt-2 pl-5">
                   <li>
                     有料放送事業者向けの顧客管理、請求管理等を行う大規模基幹システム開発を担当
                   </li>
@@ -163,7 +163,7 @@ export function StylishResumeFinal() {
               <SmileIcon className="mr-2 h-6 w-6 text-blue-500" />
               自己PR
             </h3>
-            <ul className="list-disc mb-4 text-xs md:text-sm text-gray-700">
+            <ul className="list-disc mb-4 text-xs md:text-sm text-gray-700 pl-5">
               <li>
                 細やかな対応が得意です。細やかな仕様の詰め、タスク進行の中でこぼれ球になりそうなものを拾い続けます
               </li>
