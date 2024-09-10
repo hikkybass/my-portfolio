@@ -7,6 +7,8 @@ import {
   BriefcaseIcon,
   CodeIcon,
   SmileIcon,
+  LinkIcon,
+  MailIcon,
 } from 'lucide-react';
 import Image from 'next/image';
 
@@ -58,7 +60,20 @@ export function StylishResumeFinal() {
             <p className="text-gray-600">
               〒270-0139 千葉県流山市おおたかの森南3丁目2-2-206
             </p>
-            <p className="text-gray-600">hikkybass@gmail.com</p>
+            <p className="text-gray-600 flex items-center">
+              <MailIcon className="mr-2 h-4 w-4" />
+              hikkybass@gmail.com
+            </p>
+            <p className="text-gray-600 flex items-center">
+              <LinkIcon className="mr-2 h-4 w-4" />
+              Zenn:
+              <a
+                href="https://zenn.dev/hikkybass"
+                className="ml-1 hover:underline"
+              >
+                https://zenn.dev/hikkybass
+              </a>
+            </p>
           </header>
 
           <section className="mb-8 bg-[#fafafa] rounded-lg p-6 shadow-md">
@@ -119,7 +134,7 @@ export function StylishResumeFinal() {
               </div>
               <div>
                 <p className="font-bold text-gray-800">
-                  株式会社Gracia - Webエンジニア
+                  株式会社タンプ - Webエンジニア
                 </p>
                 <p className="text-sm text-gray-600">2021年2月 - 2022年9月</p>
                 <ul className="list-disc text-xs text-gray-700 font-medium md:text-sm mt-2 pl-5">
@@ -132,7 +147,7 @@ export function StylishResumeFinal() {
                     自社倉庫に常駐することで現場業務を実際に行ったり倉庫メンバと対話を重ねながら、アジャイルで要件定義、設計、開発を行いリリース。社内の運用コスト大幅削減に貢献
                   </li>
                   <li>
-                    チーム内勉強会の立ち上げを行い、チームビルディング、ナレッジシェア体制の構築に貢献
+                    チーム内勉強会の立ち上げを行い、チームビルディング、ナレッジ���ェア体制の構築に貢献
                   </li>
                 </ul>
               </div>
