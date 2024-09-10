@@ -30,9 +30,20 @@ export function StylishResumeFinal() {
   return (
     <div className="min-h-screen bg-[#e8f3e8] py-12 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-        <div className="relative h-40 sm:h-48 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500">
+        <div className="relative h-40 sm:h-48 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 flex items-center justify-between px-4 sm:px-8">
           <div className="absolute inset-0 bg-blue-600 opacity-30 transform -skew-y-6"></div>
-          <div className="absolute top-1 right-1 sm:top-2 sm:right-2 w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-lg">
+
+          <div className="relative z-10 flex-grow">
+            <h1 className="text-lg sm:text-2xl font-bold leading-tight text-white">
+              引山 裕貴
+              <span className="text-sm sm:text-2xl ml-2">
+                (ひきやま ゆうき)
+              </span>
+            </h1>
+            <p className="text-sm sm:text-base text-white">エンジニア</p>
+          </div>
+
+          <div className="relative z-10 w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-lg flex-shrink-0 ml-4">
             <Image
               src={profileImageUrl}
               alt="プロフィール画像"
@@ -40,12 +51,6 @@ export function StylishResumeFinal() {
               height={112}
               className="object-cover"
             />
-          </div>
-          <div className="absolute bottom-1 left-2 sm:bottom-2 sm:left-4 text-white z-10">
-            <h1 className="text-lg sm:text-2xl font-bold leading-tight">
-              引山 裕貴（ひきやま ゆうき）
-            </h1>
-            <p className="text-sm sm:text-base">エンジニア</p>
           </div>
         </div>
         <CardContent className="p-8">
@@ -105,7 +110,7 @@ export function StylishResumeFinal() {
                     エンジニア社員が自分1名の初期フェーズから参画し、EM、PM、採用、開発など多岐にわたる業務を担当
                   </li>
                   <li>
-                    ほぼすべての案件の進行を行ったことにより、Webサービスの運営に必要な体系的な知識を一通り経験（フロントエンド開発、バックエンド開発、デザインシステム、SEO、GA4、GTMなど）
+                    ほぼすべての案件の進行を行ったことにより、Webサービスの運に必要な体系的な知識を一通り経験（フロントエンド開発、バックエンド開発、デザインシステム、SEO、GA4、GTMなど）
                   </li>
                   <li>
                     インバウンド向けサイト開発案件では、サイト全体の設計からリリースまでを担当し、受注率の大幅改善、GMV拡大に貢献
@@ -124,10 +129,10 @@ export function StylishResumeFinal() {
                   <li>PHP, jQuery, React.jsを使用したフルスタック開発に従事</li>
                   <li>スクラム開発をメンバとして体制立ち上げから経験</li>
                   <li>
-                    自社倉庫に常駐することで現場業務を実際に行ったり倉庫メンバと対話を重ねながら、アジャイルで要件定義、設計、開発を行いリリース。社内の運用コスト大幅削減に貢献
+                    自社倉庫に常駐することで現場業務を実際に行ったり倉庫メンバと対話を重ねながら、アジャイルで要件定義、設計、開発を行いリース。社内の運用コスト大幅削減に貢献
                   </li>
                   <li>
-                    チーム内勉強会の立ち上げを行い、��ームビルディング、ナレッジシェア体制の構築に貢献
+                    チーム内勉強会の立ち上げを行い、ームビルディング、ナレッジシェア体制の構築に貢献
                   </li>
                 </ul>
               </div>
