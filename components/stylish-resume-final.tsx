@@ -107,10 +107,10 @@ export function StylishResumeFinal() {
                   </li>
                   <li>Go, Nuxt.jsを用いたフルスタック開発に従事</li>
                   <li>
-                    エンジニア社員が自分1名の初期フェーズから参画し、EM、PM、採用、開発など多岐にわたる業務を担当
+                    エンジニア社員が私1名の初期フェーズから参画し、EM、PM、採用、開発など多岐にわたる業務を担当
                   </li>
                   <li>
-                    ほぼすべての案件の進行を行ったことにより、Webサービスの運に必要な体系的な知識を一通り経験（フロントエンド開発、バックエンド開発、デザインシステム、SEO、GA4、GTMなど）
+                    ほぼすべての案件の進行を行ったことにより、Webサービスの運用に必要な体系的な知識を一通り経験（フロントエンド開発、バックエンド開発、デザインシステム、SEO、GA4、GTMなど）
                   </li>
                   <li>
                     インバウンド向けサイト開発案件では、サイト全体の設計からリリースまでを担当し、受注率の大幅改善、GMV拡大に貢献
@@ -122,17 +122,17 @@ export function StylishResumeFinal() {
                   株式会社Gracia - Webエンジニア
                 </p>
                 <p className="text-sm text-gray-600">2021年2月 - 2022年9月</p>
-                <ul className="list-disc text-xs text-gray-700 md:text-sm mt-2 pl-5">
+                <ul className="list-disc text-xs text-gray-700 font-medium md:text-sm mt-2 pl-5">
                   <li>
                     ギフトECサイトの開発、自社向けの倉庫管理システム開発を担当
                   </li>
                   <li>PHP, jQuery, React.jsを使用したフルスタック開発に従事</li>
                   <li>スクラム開発をメンバとして体制立ち上げから経験</li>
                   <li>
-                    自社倉庫に常駐することで現場業務を実際に行ったり倉庫メンバと対話を重ねながら、アジャイルで要件定義、設計、開発を行いリース。社内の運用コスト大幅削減に貢献
+                    自社倉庫に常駐することで現場業務を実際に行ったり倉庫メンバと対話を重ねながら、アジャイルで要件定義、設計、開発を行いリリース。社内の運用コスト大幅削減に貢献
                   </li>
                   <li>
-                    チーム内勉強会の立ち上げを行い、ームビルディング、ナレッジシェア体制の構築に貢献
+                    チーム内勉強会の立ち上げを行い、チームビルディング、ナレッジシェア体制の構築に貢献
                   </li>
                 </ul>
               </div>
@@ -141,7 +141,7 @@ export function StylishResumeFinal() {
                   株式会社NTTデータ - PM、ITディレクター
                 </p>
                 <p className="text-sm text-gray-600">2014年4月 - 2021年1月</p>
-                <ul className="list-disc text-xs text-gray-700 md:text-sm mt-2 pl-5">
+                <ul className="list-disc text-xs text-gray-700 font-medium md:text-sm mt-2 pl-5">
                   <li>
                     有料放送事業者向けの顧客管理、請求管理等を行う大規模基幹システム開発を担当
                   </li>
@@ -149,7 +149,7 @@ export function StylishResumeFinal() {
                     20名規模チームのPMとして、要件定義から保守運用まで一貫して対応
                   </li>
                   <li>
-                    クライアントとの密接なコミュニケーションにより、要件の適切な把握と迅速な対応を実現
+                    クライアントとの密接なコミュニケーションにより、要件の適切な把握と迅速な対応を行う
                   </li>
                   <li>
                     客先常駐にてディレクションも兼任し、プロジェクト全体の品質向上と効率化に貢献
@@ -163,7 +163,7 @@ export function StylishResumeFinal() {
               <SmileIcon className="mr-2 h-6 w-6 text-blue-500" />
               自己PR
             </h3>
-            <ul className="list-disc mb-4 text-xs md:text-sm text-gray-700 pl-5">
+            <ul className="list-disc mb-4 text-xs md:text-sm text-gray-700 font-medium pl-5">
               <li>
                 細やかな対応が得意です。細やかな仕様の詰め、タスク進行の中でこぼれ球になりそうなものを拾い続けます
               </li>
