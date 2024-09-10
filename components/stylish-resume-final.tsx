@@ -120,7 +120,7 @@ export function StylishResumeFinal() {
                 <p className="text-sm text-gray-600">2022年9月 - 2024年7月</p>
                 <ul className="list-disc text-xs md:text-sm mt-2 text-gray-700 font-medium pl-5">
                   <li>
-                    伝統文化、飲食等の体験を可能とする、感動体験ECサイトの開発を担当
+                    日本の伝統文化や芸術、季節に応じた特別な料理などを体験できる、感動体験ECサイトの開発を担当
                   </li>
                   <li>Go, Nuxt.jsを用いたフルスタック開発に従事</li>
                   <li>
